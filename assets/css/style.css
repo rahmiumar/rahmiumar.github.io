@@ -314,6 +314,9 @@ table.bk td strong { color: var(--ink); font-weight: 500; }
 .site-footer { border-top: 1px solid var(--rule-strong); margin-top: clamp(24px, 4vw, 48px); padding: 28px 0 40px; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; font-family: var(--sans); font-size: .8rem; color: var(--ink-3); }
 .site-footer a { color: var(--ink-2); }
+.foot-links { display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.aside .dl { font-family: var(--sans); font-size: .9rem; color: var(--ink); display: inline-block; border: 1px solid var(--ink); padding: 8px 14px; text-decoration: none; }
+.aside .dl:hover { background: var(--ink); color: var(--paper); }
 
 /* ---------- Print (CV) ---------- */
 @media print {
